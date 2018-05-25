@@ -61,7 +61,7 @@
 
     self.myLogin = [[Login alloc] init];
     self.myLogin.email = [Login preUserEmail];
-    _captchaNeeded = NO;
+    _captchaNeeded = YES;
     self.view.backgroundColor = kColorWhite;
     [self.navigationController.navigationBar setupClearBGStyle];
 

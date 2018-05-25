@@ -95,7 +95,7 @@
     _realTimeBlurFooter.showDuration = 0.3;
     _realTimeBlurFooter.disMissDuration = 0.1;
     
-    _footerView=[[UIView alloc] initWithFrame:CGRectMake(0, kScreen_Height-48, kScreen_Width, 48)];
+    _footerView = [[UIView alloc] initWithFrame:CGRectMake(0, kScreen_Height-48, kScreen_Width, 48)];
 }
 
 #pragma mark - 公开方法

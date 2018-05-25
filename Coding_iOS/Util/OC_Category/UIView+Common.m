@@ -339,6 +339,8 @@ static char LoadingViewKey, BlankPageViewKey;
     objc_setAssociatedObject(self, &LoadingViewKey,
                              loadingView,
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    
+
     [self didChangeValueForKey:@"LoadingViewKey"];
 }
 - (EaseLoadingView *)loadingView{
